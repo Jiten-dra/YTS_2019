@@ -1,0 +1,8 @@
+scipy
+wfdb
+patsy
+statsmodels
+tensorflow
+keras
+pandas
+sklearn
