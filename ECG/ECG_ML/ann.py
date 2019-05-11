@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import keras
 
 
-df=pd.read_csv("features.csv")
+df=pd.read_csv("./output/features.csv")
 y = df["type"].values
 
 

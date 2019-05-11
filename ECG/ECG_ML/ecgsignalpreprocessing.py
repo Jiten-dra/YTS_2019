@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from filter import *
+from filtering.filter import *
 import wfdb
 from statsmodels.tsa.stattools import levinson_durbin
 from collections import OrderedDict
@@ -37,6 +37,6 @@ df = pd.DataFrame.from_dict(lst)
 df.dropna(inplace=True)
 
 # Features extracted are saved to features.csv
-df.to_csv("features.csv", index=False)
+df.to_csv("./output/features.csv", index=False)
 print("successfully extracted features")
 
